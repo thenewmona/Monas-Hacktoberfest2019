@@ -6,4 +6,14 @@
  * [ ] learn one new GIT command today
 
 
-## <span style ="color:red">Repos to work on</span>
+## <span style ="color:red">Repos to work on</span>  
+ * [ ] **100-days-css**  
+ * [ ] **Animation-Nation**
+ * [ ] **awesome-hacktoberfest**  
+ * [ ] **cutter**  
+ * [ ] **Emoji-Log**  
+ * [ ] **free-hactoberfest-pr**  
+ * [ ] **FunnyAlgorithms**  
+ * [ ] **Hacktoberfrest-swag-list**  
+ * [ ] **Javascript-battle**  
+ * [ ] **scroll-in**  
