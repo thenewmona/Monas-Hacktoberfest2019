@@ -10,7 +10,7 @@
 
  Feel free to create what ever you would like in this. 
 
- Please document what you did or are trying to do in the gitlearn.md documentation. 
+ Please document what you did or are trying to do in the [GITlearn](gitlearn.md) documentation. 
 
  Added some more repos to work on.  
  Look for the list on the checklist.  
