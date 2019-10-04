@@ -12,11 +12,9 @@
 
  Please document what you did or are trying to do in the gitlearn.md documentation. 
 
- 
- ##Goals fo today 10/3/2019  
- * [ ] learn to create labels 
- * [ ] get the configuration correct for working with multiple git accounts 
- * [ ] learn how to merge a pull request 
- * [ ] should I put this in the README.md so everyone can see 
- * [ ] learn one new GIT command today
+ Added some more repos to work on.  
+ Look for the list on the checklist.  
 
+ 
+
+ 
