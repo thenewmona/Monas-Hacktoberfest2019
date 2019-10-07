@@ -24,3 +24,8 @@ Github desktop is tell me that I have a dirty file, need to find out what that m
 1. Need to figure out why even though I am logged in as codinggrandma using the codinggrandma credentials. 
 2. I can not do a push to the repo from VScode, only from the Gitdesktop
 3. I can not create a pull request from thenewmona account
+
+**10/7/2019** thenewmona
+
+Unfortunately I missed the mark this weekend.
+Did not work on any of my goals that I set, 
