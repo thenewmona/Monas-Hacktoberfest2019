@@ -5,6 +5,7 @@
  * [x] should I put this in the README.md so everyone can see 10/7
  * [ ] learn one new GIT command today
  * [x]  Adding images to github 10/7
+ * [ ]  Learn to do a PR from the teminal if possible
 
 
 ## <span style ="color:red">Repos to work on</span>  
