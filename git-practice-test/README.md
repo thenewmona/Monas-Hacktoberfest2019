@@ -10,8 +10,6 @@
 
  Feel free to create what ever you would like in this. 
 
- I will try to post a new challenge every day in the gitlearn.md file. 
-
  Please document what you did or are trying to do in the gitlearn.md documentation. 
 
  

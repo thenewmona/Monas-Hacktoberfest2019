@@ -1,5 +1,10 @@
-
+10/3/2019
 ## Gitlearn 
+<<<<<<< Updated upstream
+
+Created a master repository with all of my Hacktoberfest activity. 
+Did this from thenewmona account
+=======
 **10/3/2019** 
 
 **[thenewmona](https://github.com/thenewmona)**  
@@ -27,3 +32,4 @@ I did put an image on the git-journey page.
 It works fine, but when I try this way as per the video, I an not get it to render. 
 I did do a gitmerge on this repo, now I just need to figure out how to merge my branch. 
 gray folder issue <img src= "./git-practice-test/images/github-gray-folder.png">
+>>>>>>> Stashed changes
