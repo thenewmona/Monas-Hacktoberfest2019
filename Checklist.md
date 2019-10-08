@@ -1,7 +1,8 @@
 ##Goals  
  * [ ] learn to create labels 
  * [ ] get the configuration correct for working with multiple git accounts 
- * [x] learn how to merge a pull request / completed 10/7
+ * [x] learn how to merge a pull request
+        completed 10/7 at least from github, but it is not being reflected in my local repo 
  * [x] should I put this in the README.md so everyone can see 10/7
  * [ ] learn one new GIT command today
  * [x]  Adding images to github 10/7
