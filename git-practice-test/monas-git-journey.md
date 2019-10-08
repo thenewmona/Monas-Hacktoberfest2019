@@ -29,3 +29,12 @@ Github desktop is tell me that I have a dirty file, need to find out what that m
 
 Unfortunately I missed the mark this weekend.
 Did not work on any of my goals that I set, 
+Following some recommendations from Stackoverflow, in regards to have .git file inside of the folders of the master, could be a reason why my folders are grayed out. 
+
+Tried to remove the .git file animation nation.
+I then created a branch ,created my folder, inside the folder I created my HTML boiler plate. 
+I then did a commit with a pull request. 
+Went into Github, and verified the PR, and then merged the PR. 
+But the folder is still grayed out in Github. 
+
+![grayed out folders issues](/git-practice-test/images/github-gray-folder.png)
