@@ -1,17 +1,18 @@
-##Goals fo today 10/3/2019  
+##Goals  
  * [ ] learn to create labels 
  * [ ] get the configuration correct for working with multiple git accounts 
  * [x] learn how to merge a pull request / completed 10/7
  * [x] should I put this in the README.md so everyone can see 10/7
  * [ ] learn one new GIT command today
+ * [x]  Adding images to github 10/7
 
 
 ## <span style ="color:red">Repos to work on</span>  
  * [ ] **100-days-css**  
  * [ ] **Animation-Nation**
+      1. created folder and HTML boilerplate 
  * [ ] **awesome-hacktoberfest**  
  * [ ] **cutter**  
- * [ ] **Emoji-Log**  
  * [ ] **free-hactoberfest-pr**  
  * [ ] **FunnyAlgorithms**  
  * [ ] **Hacktoberfrest-swag-list**  
