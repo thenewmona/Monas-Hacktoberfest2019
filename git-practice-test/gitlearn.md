@@ -25,5 +25,5 @@ Give it a try, when your done don't forget to do a PR.
 Having issues with my repo on Github, so I am a little late with getting the image. 
 I did put an image on the git-journey page.
 It works fine, but when I try this way as per the video, I an not get it to render. 
-
+I did do a gitmerge on this repo, now I just need to figure out how to merge my branch. 
 gray folder issue <img src= "./git-practice-test/images/github-gray-folder.png">

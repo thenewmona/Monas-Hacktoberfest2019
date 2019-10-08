@@ -15,7 +15,8 @@
  Please document what you did or are trying to do in the gitlearn.md documentation. 
 
  
- ##Goals fo today 10/3/2019  
+ ##Goals for Hacktoberfest 2019 in GIT
+ 
  * [ ] learn to create labels 
  * [ ] get the configuration correct for working with multiple git accounts 
  * [ ] learn how to merge a pull request 
