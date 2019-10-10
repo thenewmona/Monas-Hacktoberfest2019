@@ -38,3 +38,12 @@ Went into Github, and verified the PR, and then merged the PR.
 But the folder is still grayed out in Github. 
 
 ![grayed out folders issues](/git-practice-test/images/github-gray-folder.png)
+
+**10/10/2019**
+
+I really need to get better at keeping up with my journaling. 
+not sure why there is nothing here since the 7th.
+I have two pull requests that I need to figure out how to merge. 
+So my goal today is to merge, and close these pull request. 
+Still have not figured out how to fix the grayed out folders in GIThub. 
+Also have orientation today with GC, school is getting real. 
