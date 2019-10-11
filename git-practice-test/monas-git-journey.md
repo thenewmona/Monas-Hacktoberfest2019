@@ -57,3 +57,6 @@ But when I go to add it I get this error message.
 fatal: ..: '..' is outside repository`
 
 So need to figure out how to fix this error message, so I can see if I fixed my folder issue. 
+
+I am just having one issue after another.  
+All issues are in the gitlearn.md, but I am thinking that I am going to make an issues.md, because the gitlearn.md was suppose to be challenges and things that I or other's want to learn.  
