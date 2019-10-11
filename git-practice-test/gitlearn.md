@@ -108,3 +108,8 @@ So I have deleted all of the empty folders.
 I have cloned a new repo that I have never cloned before. 
 [Hacktoberfrest-2019-Angular](https://github.com/thenewmona/hacktoberfest-2019-angular.git)  
 I am now going to commit these changes and see what happens on Github. 
+
+Ok so I had no errors this time doing the commit or the push.
+All the folders Repo's are gone.  
+Except for the Cutter and Angular folder.   
+I have verified that they are not empty, but they are still grayed out in github. 
