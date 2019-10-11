@@ -99,4 +99,12 @@ ramonas@ISops31 MINGW64 /c/source/Monas-Hacktoberfest-2019 (monas-algorithms|MER
 $ git push origin master
 
 Looks like I am going to have a fun day with this.
-Then I will really need to clean up and format this readme, to make it legalable. 
+Then I will really need to clean up and format this readme, to make it legalable.  
+
+Not sure if I have fixed my grayed out folders or not. 
+Opening up folder's in VSC , I noticed that there was nothing in them. 
+So I went into file explorer and verified that all the folders were in deed empty. 
+So I have deleted all of the empty folders. 
+I have cloned a new repo that I have never cloned before. 
+[Hacktoberfrest-2019-Angular](https://github.com/thenewmona/hacktoberfest-2019-angular.git)  
+I am now going to commit these changes and see what happens on Github. 
