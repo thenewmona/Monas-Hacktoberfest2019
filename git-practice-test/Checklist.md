@@ -18,6 +18,8 @@
  * [ ] Try for 4 PR's a day 
  * [ ] Learn about stash
  * [ ] Resolving merge conflicts
+ * [ ] what is actions, I have it on thenewmona but not on codinggrandma
+       1. https://snipboard.io/chwOTm.jpg
 
 ## <span style ="color:red">Repos to work on</span>  
  * [ ] **100-days-css**  
