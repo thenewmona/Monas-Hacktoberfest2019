@@ -20,4 +20,8 @@ Here is a link to some [Resources](gitresources.md) that I used to help me with 
 Give it a try, when your done don't forget to do a PR. 
 [GitHub Readme Images Tutorial ](https://www.youtube.com/watch?v=hHbWF1Bvgf4)
 
-I 
+ 10/10/2019  
+
+I have two pull requests that I need to figure out how to merge. 
+So my goal today is to merge, and close these pull request. 
+Still have not figured out how to fix the grayed out folders in GIThub. 
