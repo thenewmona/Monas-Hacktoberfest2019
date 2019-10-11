@@ -16,6 +16,7 @@
  * [x] Learn how to add images to Github - 10/7
  * [ ] Learn how to do emoji's
  * [ ] Try for 4 PR's a day 
+ * [ ] Learn about stash
 
 ## <span style ="color:red">Repos to work on</span>  
  * [ ] **100-days-css**  
@@ -28,3 +29,4 @@
  * [ ] **Hacktoberfrest-swag-list**  
  * [ ] **Javascript-battle**  
  * [ ] **scroll-in**  
+ * [ ] **Hacktoberfest-2019-Angular**
