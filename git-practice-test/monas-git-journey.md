@@ -47,3 +47,14 @@ I have two pull requests that I need to figure out how to merge.
 So my goal today is to merge, and close these pull request. 
 Still have not figured out how to fix the grayed out folders in GIThub. 
 Also have orientation today with GC, school is getting real. 
+
+**10/11/2019**
+
+Still having issues with  the grayed out folders. 
+Deleted the cutter folder, and then recloned it.
+But when I go to add it I get this error message. 
+
+ `git add ..
+fatal: ..: '..' is outside repository`
+
+So need to figure out how to fix this error message, so I can see if I fixed my folder issue. 
