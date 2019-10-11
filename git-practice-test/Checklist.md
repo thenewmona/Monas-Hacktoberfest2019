@@ -17,6 +17,7 @@
  * [ ] Learn how to do emoji's
  * [ ] Try for 4 PR's a day 
  * [ ] Learn about stash
+ * [ ] Resolving merge conflicts
 
 ## <span style ="color:red">Repos to work on</span>  
  * [ ] **100-days-css**  
