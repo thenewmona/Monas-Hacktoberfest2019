@@ -99,3 +99,5 @@ It works fine, but when I try this way as per the video, I an not get it to rend
 I did do a gitmerge on this repo, now I just need to figure out how to merge my branch. 
 gray folder issue <img src= "./git-practice-test/images/github-gray-folder.png">
 >>>>>>> 2e78ec4fbbd045b7fbfca04113f7f8c133c9330f
+
+
