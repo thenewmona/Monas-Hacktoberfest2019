@@ -1,13 +1,7 @@
-[sourcerer link](https://sourcerer.io/ramona-saintandre)  
-[Github link](https://github.com/Ramona-Saintandre)
-
-## Hacktoberfest2019 Journey  
-
 **10/3/2019**
 
-The beginning of my git journey. 
+The beginning of git journey. 
 The goal is to become profiecent with GIT and it's functionality. 
-
 Today I am created my first repo and setting it up for colaboration with Hacktoberfest.   
  ##Goals fo today
  * [ ] learn to create labels 
@@ -15,7 +9,6 @@ Today I am created my first repo and setting it up for colaboration with Hacktob
  * [ ] learn how to merge a pull request 
  * [ ] should I put this in the README.md so everyone can see 
  * [ ] learn one new GIT command today 
-
 Today I am created my first repo and setting it up for colaboration with Hacktoberfest. 
 
 Very interensting day today. 
@@ -29,9 +22,6 @@ Github desktop is tell me that I have a dirty file, need to find out what that m
 3. I can not create a pull request from thenewmona account
 
 **10/7/2019** thenewmona
-
-
-
 
  ##ISSUES  
 Need to figure out why even though I am logged in as codinggrandma using the codinggrandma credentials. 
@@ -70,22 +60,3 @@ So need to figure out how to fix this error message, so I can see if I fixed my 
 
 I am just having one issue after another.  
 All issues are in the gitlearn.md, but I am thinking that I am going to make an issues.md, because the gitlearn.md was suppose to be challenges and things that I or other's want to learn.  
-
-**10/21/2019**
-
-I have not been keeping up with this at all since I started school. 
-Today I did something that was not on my checklist, I deleted a branch. :)  
-[How to Delete a Git branch both locally and remotely](https://www.freecodecamp.org/forum/t/how-to-delete-a-git-branch-both-locally-and-remotely/13211)
-
-**10/22/2019**
-
-Alright going to GIT some major work done on this GIThub stuff. 
-Last week in class, I somehow managed to to set the upstream for one of repo's to the cloned origin, instead of to my fork.  
-Last night in class it was a disaster.  
-When I did my push/pull I had my work, and the instructors work, I ended up with 3 overlaying boards.  
-Tried to do a GIT revert, and a HEAD reset, and none of that worked.  
-So today I will be cleaning up my repo, and learning more about this tool. 
-Totally forgot about sourcer.io, connecting my GITHUB account to it, and I am now I am able to see what I do in GIT. :). 
-Still need to learn how to add Emoji's . 
-![sourcer.io](./git-practice-test/images/sourcer-io.gif) 
-I also need to learn how to create a `.gitignore` file 
