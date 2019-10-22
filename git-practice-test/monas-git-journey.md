@@ -87,4 +87,5 @@ Tried to do a GIT revert, and a HEAD reset, and none of that worked.
 So today I will be cleaning up my repo, and learning more about this tool. 
 Totally forgot about sourcer.io, connecting my GITHUB account to it, and I am now I am able to see what I do in GIT. :). 
 Still need to learn how to add Emoji's . 
-![sourcer.io](/git-practice-test/images/sourcer-io.gif)  
+![sourcer.io](./git-practice-test/images/sourcer-io.gif) 
+I also need to learn how to create a `.gitignore` file 

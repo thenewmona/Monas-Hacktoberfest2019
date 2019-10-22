@@ -8,18 +8,19 @@
  * [x]  Adding images to github 10/7
  * [ ]  Learn to do a PR from the teminal if possible
 *  [ ] learn to create labels 
- * [ ] get the configuration correct for working with multiple git accounts 
+ * [x] get the configuration correct for working with multiple git accounts 
  * [ ] learn how to merge a branch 
- * [ ] should I put this in the README.md so everyone can see 
+ * [x] should I put this in the README.md so everyone can see 
  * [ ] learn one new GIT command today 
  * [ ] What is a dirty file?
  * [x] Learn how to add images to Github - 10/7
  * [ ] Learn how to do emoji's
  * [ ] Try for 4 PR's a day 
  * [ ] Learn about stash
- * [ ] Resolving merge conflicts
- * [ ] what is actions, I have it on thenewmona but not on codinggrandma
-       1. https://snipboard.io/chwOTm.jpg
+ * [x] Resolving merge conflicts
+ * [x] what is actions, I have it on thenewmona but not on codinggrandma
+       1. https://snipboard.io/chwOTm.jpg  
+
  * [ ] Learn how to delete a branch 
 
 ## <span style ="color:red">Repos to work on</span>  
@@ -34,3 +35,4 @@
  * [ ] **Javascript-battle**  
  * [ ] **scroll-in**  
  * [ ] **Hacktoberfest-2019-Angular**
+ * [ ] **.gitignore file**
