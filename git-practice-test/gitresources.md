@@ -22,9 +22,9 @@
 ### GIT Merge Conflicts
 [Resolve simple merge conflicts on GitHub](https://github.blog/2016-12-12-resolve-simple-merge-conflicts-on-github/)  
 ### GIT Branching
-[What is a branch in Git, and how do we use it?](https://www.freecodecamp.org/news/what-is-a-branch-in-git-9bcd1a760ed3/)
-[Git good… Branching for beginners](https://medium.com/datadriveninvestor/git-good-branching-for-beginners-96c1b97c2ca7)  
-
+[What is a branch in Git, and how do we use it?](https://www.freecodecamp.org/news/what-is-a-branch-in-git-9bcd1a760ed3/)  
+[Git good… Branching for beginners](https://medium.com/datadriveninvestor/git-good-branching-for-beginners-96c1b97c2ca7)    
+[Git Create Branch: 4 Ways to Do It](https://rollout.io/blog/git-create-branch/)  
 
 ### GIT Rebase
 
@@ -42,6 +42,8 @@ ___________________________________
 
 ## GIT bisect  
 [How did that bug happen? Git bisect to the rescue!](https://www.freecodecamp.org/news/how-did-that-bug-happen-git-bisect-to-the-rescue-4368105f8149/) 
+[Your website, closer to your code](https://github.dev/)  
+
 
 ## GIT Dotfiles  
 [An introduction to Dotfiles: how to take control of your development environment](https://www.freecodecamp.org/news/dive-into-dotfiles-part-1-e4eb1003cff6/)  
@@ -70,5 +72,7 @@ ___________________________________
 
 [Adding the DEV badge to github.dev starter website](https://dev.to/amorpheuz/adding-the-dev-badge-to-github-dev-starter-website-28g3)
 
+
 ### Hacktoberfest ***contributing to OpenSource  
 [Git process and commands to know to contribute to an open-source project](https://dev.to/bhuvanaguna/git-process-and-commands-to-know-to-contribute-to-an-open-source-project-l2f)  
+[Taking Control of Your Git History](https://silvenon.com/blog/better-git-history/introduction?utm_source=ponyfoo+weekly&utm_medium=email&utm_campaign=188)  
