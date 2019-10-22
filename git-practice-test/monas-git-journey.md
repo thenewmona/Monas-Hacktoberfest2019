@@ -1,6 +1,11 @@
+[sourcerer link](https://sourcerer.io/ramona-saintandre)  
+[Github link](https://github.com/Ramona-Saintandre)
+
+## Hacktoberfest2019 Journey  
+
 **10/3/2019**
 
-The beginning of git journey. 
+The beginning of my git journey. 
 The goal is to become profiecent with GIT and it's functionality. 
 
 Today I am created my first repo and setting it up for colaboration with Hacktoberfest.   
@@ -80,3 +85,6 @@ Last night in class it was a disaster.
 When I did my push/pull I had my work, and the instructors work, I ended up with 3 overlaying boards.  
 Tried to do a GIT revert, and a HEAD reset, and none of that worked.  
 So today I will be cleaning up my repo, and learning more about this tool. 
+Totally forgot about sourcer.io, connecting my GITHUB account to it, and I am now I am able to see what I do in GIT. :). 
+Still need to learn how to add Emoji's . 
+![sourcer.io](/git-practice-test/images/sourcer-io.gif)  
