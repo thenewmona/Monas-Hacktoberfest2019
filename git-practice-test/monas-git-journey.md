@@ -2,7 +2,7 @@
 
 The beginning of git journey. 
 The goal is to become profiecent with GIT and it's functionality. 
-<<<<<<< Updated upstream
+
 Today I am created my first repo and setting it up for colaboration with Hacktoberfest.   
  ##Goals fo today
  * [ ] learn to create labels 
@@ -10,10 +10,7 @@ Today I am created my first repo and setting it up for colaboration with Hacktob
  * [ ] learn how to merge a pull request 
  * [ ] should I put this in the README.md so everyone can see 
  * [ ] learn one new GIT command today 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 2e78ec4fbbd045b7fbfca04113f7f8c133c9330f
+
 Today I am created my first repo and setting it up for colaboration with Hacktoberfest. 
 
 Very interensting day today. 
@@ -21,18 +18,14 @@ Could not get anything to work right, had to dealt and recreate my repo so may t
 Github desktop is tell me that I have a dirty file, need to find out what that means 
  ##Goals to do by the end of Hacktoberfest  
   
- ##ISSUES  
+ ## ISSUES  
 1. Need to figure out why even though I am logged in as codinggrandma using the codinggrandma credentials. 
 2. I can not do a push to the repo from VScode, only from the Gitdesktop
 3. I can not create a pull request from thenewmona account
 
 **10/7/2019** thenewmona
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> 2e78ec4fbbd045b7fbfca04113f7f8c133c9330f
 
- ##ISSUES  
+## ISSUES  
 Need to figure out why even though I am logged in as codinggrandma using the codinggrandma credentials. 
 I can not do a push to the repo from VScode, only from the Gitdesktop
 Unfortunately I missed the mark this weekend.
