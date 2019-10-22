@@ -66,5 +66,9 @@ ___________________________________
 ### GIT Videos  
 [Git Tutorial - 23 - GitHub Issues and Labels](https://www.youtube.com/watch?v=YshvUGgF_3o) 
 
+### GIT Misc  
 
-[]
+[Adding the DEV badge to github.dev starter website](https://dev.to/amorpheuz/adding-the-dev-badge-to-github-dev-starter-website-28g3)
+
+### Hacktoberfest ***contributing to OpenSource  
+[Git process and commands to know to contribute to an open-source project](https://dev.to/bhuvanaguna/git-process-and-commands-to-know-to-contribute-to-an-open-source-project-l2f)  
