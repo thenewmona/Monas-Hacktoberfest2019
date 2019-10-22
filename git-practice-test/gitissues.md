@@ -104,3 +104,10 @@ Ok so I had no errors this time doing the commit or the push.
 All the folders Repo's are gone.  
 Except for the Cutter and Angular folder.   
 I have verified that they are not empty, but they are still grayed out in github. 
+
+**10/22/2019**
+
+Need to figure out this error
+$ git push upstream
+remote: Permission to Ramona-Saintandre/git-practice-test.git denied to thenewmona.
+fatal: unable to access 'https://github.com/Ramona-Saintandre/git-practice-test.git/': The requested URL returned error: 403
