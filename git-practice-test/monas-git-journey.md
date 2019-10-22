@@ -71,3 +71,12 @@ All issues are in the gitlearn.md, but I am thinking that I am going to make an 
 I have not been keeping up with this at all since I started school. 
 Today I did something that was not on my checklist, I deleted a branch. :)  
 [How to Delete a Git branch both locally and remotely](https://www.freecodecamp.org/forum/t/how-to-delete-a-git-branch-both-locally-and-remotely/13211)
+
+**10/22/2019**
+
+Alright going to GIT some major work done on this GIThub stuff. 
+Last week in class, I somehow managed to to set the upstream for one of repo's to the cloned origin, instead of to my fork.  
+Last night in class it was a disaster.  
+When I did my push/pull I had my work, and the instructors work, I ended up with 3 overlaying boards.  
+Tried to do a GIT revert, and a HEAD reset, and none of that worked.  
+So today I will be cleaning up my repo, and learning more about this tool. 
