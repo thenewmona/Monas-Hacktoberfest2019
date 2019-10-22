@@ -2,6 +2,7 @@
 
 The beginning of git journey. 
 The goal is to become profiecent with GIT and it's functionality. 
+<<<<<<< Updated upstream
 Today I am created my first repo and setting it up for colaboration with Hacktoberfest.   
  ##Goals fo today
  * [ ] learn to create labels 
@@ -9,6 +10,10 @@ Today I am created my first repo and setting it up for colaboration with Hacktob
  * [ ] learn how to merge a pull request 
  * [ ] should I put this in the README.md so everyone can see 
  * [ ] learn one new GIT command today 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 2e78ec4fbbd045b7fbfca04113f7f8c133c9330f
 Today I am created my first repo and setting it up for colaboration with Hacktoberfest. 
 
 Very interensting day today. 
@@ -22,6 +27,10 @@ Github desktop is tell me that I have a dirty file, need to find out what that m
 3. I can not create a pull request from thenewmona account
 
 **10/7/2019** thenewmona
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 2e78ec4fbbd045b7fbfca04113f7f8c133c9330f
 
  ##ISSUES  
 Need to figure out why even though I am logged in as codinggrandma using the codinggrandma credentials. 
