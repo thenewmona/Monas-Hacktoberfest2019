@@ -192,3 +192,6 @@ nothing added to commit but untracked files present (use "git add" to track)
 C:\projects\Monas-Hacktoberfest2019>git add ..
 fatal: ..: '..' is outside repository
 
+on my grandcircus repo, I have a dirty file issue that I need to figure out how to fix 
+Right now I think I am just going to download it as a seperate repo, and not nest it just to see if I can work with it that way.
+
