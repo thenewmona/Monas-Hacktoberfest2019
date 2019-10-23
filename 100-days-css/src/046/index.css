@@ -1,0 +1,78 @@
+$frameHeight: 400px;
+$frameWidth: 400px;
+$spinnerSize: 200px;
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: $frameWidth;
+  height: $frameHeight;
+  background: linear-gradient(to bottom right, #43c6ac, #f8ffae);
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+.ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: $spinnerSize;
+  height: $spinnerSize;
+  margin-top: calc(0 - $spinnerSize/2);
+  margin-left: calc(0 - $spinnerSize/2);
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* dots */
+@for $i from 0 to 5 {
+  /* radius of each ring */
+  $radius: calc(($spinnerSize - $i * 5px) / 2);
+
+  /* opacity of each dot */
+  $alpha: calc(1 - $i / 10);
+
+  /* initial rotation of ring */
+  $ringDeg: calc(360deg / 12 * $i);
+
+  .ring-$i {
+    animation: inout-$i 6s ease-in-out alternate infinite;
+    transform: translate(-50%, -50%) rotate($ringDeg);
+    transform-origin: center;
+  }
+
+  .ring-$i .dot {
+    opacity: $alpha;
+  }
+
+  @keyframes inout-$i {
+    0% {
+      transform: scale(calc(1 - $i / 7)) rotate(calc($i*5deg + $ringDeg));
+    }
+
+    100% {
+      transform: scale(calc(1 - $i / 22)) rotate(calc($i*10deg + 360deg + $ringDeg));
+    }
+  }
+
+  @for $j from 0 to 11 {
+    /* initial rotation of dot */
+    $dotDeg: calc(360deg / 12 * $j);
+
+    .ring-$i .dot-$j {
+      transform: translate3d(0, calc(-1 * $radius), 0) rotate($dotDeg);
+      transform-origin: 0 $radius;
+    }
+  }
+}

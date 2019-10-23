@@ -1,0 +1,149 @@
+:root {
+  --frame: 400px;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--frame);
+  height: var(--frame);
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #2196f3;
+
+  svg {
+    fill: #1f8de4;
+  }
+}
+
+.marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+
+  svg {
+    animation: hover 1s ease-in-out alternate infinite;
+    cursor: pointer;
+    fill: #ffcc30;
+  }
+}
+
+.marker-shadow {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 18px;
+  height: 6px;
+  background: color(#1f8de4 shade(10%));
+  border-radius: 50%;
+  animation: shadow 1s ease-in-out alternate infinite;
+  transform: translateX(-50%);
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 240px;
+  background: #fff;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.card img {
+  width: 240px;
+}
+
+.card .title {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+}
+
+.card .address {
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.card .buttons {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  color: #1f8de4;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 40px;
+  cursor: pointer;
+  text-transform: capitalize;
+
+  div:not(.divide) {
+    flex: 1;
+  }
+}
+
+.card .buttons .divide {
+  width: 1px;
+  height: 20px;
+  background: #91ccfb;
+  flex: none;
+}
+
+input[type="checkbox"]:checked ~ .marker {
+  opacity: 0;
+  transition: all 0.3s linear;
+  transform: translate(-50%, -50%) rotateY(90deg);
+}
+
+input[type="checkbox"]:not(:checked) ~ .marker {
+  opacity: 1;
+  transition: all 0.3s linear 0.3s;
+  transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"]:checked ~ .card {
+  opacity: 1;
+  transition: all 0.3s linear 0.3s;
+  transform: perspective(600px) translate(-50%, -50%);
+}
+
+input[type="checkbox"]:not(:checked) ~ .card {
+  opacity: 0;
+  transition: all 0.3s linear;
+  transform: translate(-50%, -50%) rotateY(90deg);
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+
+  100% {
+    transform: translateX(-50%) scale(0.8);
+  }
+}

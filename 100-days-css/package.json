@@ -1,0 +1,62 @@
+{
+  "name": "100dayspostcss",
+  "version": "1.0.0",
+  "description": "100 days css challenge with postcss",
+  "main": "index.js",
+  "scripts": {
+    "new": "babel-node ./script/generate-challenge",
+    "dev": "parcel src/index.html src/**/index.pug",
+    "build": "parcel build --public-url '.' src/index.html src/**/index.pug",
+    "lint:css": "stylelint src/**/*.css --fix",
+    "lint:pug": "pug-lint src/**/*.pug",
+    "lint": "npm run lint:css && npm run lint:pug",
+    "update-config": "babel-node ./script/generate-config",
+    "test": "exit 0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run update-config && git add ."
+    }
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "PostCSS"
+  ],
+  "author": "Jasmine Xie",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.9.1",
+    "parcel-bundler": "^1.12.3",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.4.5",
+    "@vue/component-compiler-utils": "^3.0.0",
+    "ansi-colors": "^3.2.4",
+    "autoprefixer": "latest",
+    "enquirer": "^2.3.0",
+    "husky": "latest",
+    "lodash": "^4.17.14",
+    "postcss-at-rules-variables": "^0.1.8",
+    "postcss-calc": "^7.0.1",
+    "postcss-color-function": "^4.1.0",
+    "postcss-custom-properties": "^8.0.10",
+    "postcss-for": "^2.1.1",
+    "postcss-mixins": "^6.2.1",
+    "postcss-modules": "^1.4.1",
+    "postcss-nested": "^4.1.2",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-random": "^1.0.9",
+    "postcss-simple-vars": "^5.0.2",
+    "pug": "^2.0.3",
+    "pug-lint": "^2.5.0",
+    "sass": "^1.21.0",
+    "stylelint": "^10.0.1",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-order": "^3.0.1",
+    "typescript": "^3.6.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

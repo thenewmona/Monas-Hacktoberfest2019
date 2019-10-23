@@ -111,3 +111,84 @@ Need to figure out this error
 $ git push upstream
 remote: Permission to Ramona-Saintandre/git-practice-test.git denied to thenewmona.
 fatal: unable to access 'https://github.com/Ramona-Saintandre/git-practice-test.git/': The requested URL returned error: 403
+
+**10/23/2019**
+
+
+
+Your branch is based on 'origin/monas-algorithms', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+        renamed:    Checklist.md -> git-practice-test/Checklist.md
+        modified:   git-practice-test/gitlearn.md
+        renamed:    gitresources.md -> git-practice-test/gitresources.md
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   git-practice-test/monas-git-journey.md
+
+
+C:\projects\Monas-Hacktoberfest2019>git add ..
+fatal: ..: '..' is outside repository
+
+C:\projects\Monas-Hacktoberfest2019>git pull
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+C:\projects\Monas-Hacktoberfest2019>git status
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   git-practice-test/monas-git-journey.md
+
+
+C:\projects\Monas-Hacktoberfest2019>git branch --unset-upstream
+
+C:\projects\Monas-Hacktoberfest2019>git status
+On branch monas-algorithms
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+        renamed:    Checklist.md -> git-practice-test/Checklist.md
+        modified:   git-practice-test/gitlearn.md
+        renamed:    gitresources.md -> git-practice-test/gitresources.md
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   git-practice-test/monas-git-journey.md
+
+
+C:\projects\Monas-Hacktoberfest2019>git merge --abort
+
+C:\projects\Monas-Hacktoberfest2019>git status
+On branch monas-algorithms
+nothing to commit, working tree clean
+
+C:\projects\Monas-Hacktoberfest2019>git commit -m "cleaned up merge conflict using -abort"
+On branch monas-algorithms
+nothing to commit, working tree clean
+
+C:\projects\Monas-Hacktoberfest2019>git checkout master
+warning: unable to rmdir '100-days-css': Directory not empty
+warning: unable to rmdir 'Animation-Nation': Directory not empty
+        scrroll-in/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\projects\Monas-Hacktoberfest2019>git add ..
+fatal: ..: '..' is outside repository
+

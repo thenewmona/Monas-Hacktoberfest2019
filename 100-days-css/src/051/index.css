@@ -1,0 +1,141 @@
+$frame: 400px;
+$color: rgba(0, 0, 0, 0.5);
+$textColor: white;
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: $frame;
+  height: $frame;
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", Arial, sans-serif;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  display: none;
+}
+
+label {
+  position: absolute;
+  top: 240px;
+  left: calc($frame / 2 - 8px);
+  width: 16px;
+  height: 20px;
+  cursor: pointer;
+
+  .play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid $color;
+    border-right: 0 solid transparent;
+    border-top: 10px solid transparent;
+    box-sizing: content-box;
+    transform: scale(0);
+  }
+
+  .pause {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 20px;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    border-left: 5px solid $color;
+    border-right: 5px solid $color;
+    box-sizing: border-box;
+    transform: scale(1);
+  }
+}
+
+input:checked ~ .button {
+  .play {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .pause {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+.counter {
+  position: relative;
+  top: calc($frame / 2 - 20px);
+  left: calc($frame / 2 - 50px);
+  display: flex;
+  padding: 0 6px;
+  width: 100px;
+  height: 40px;
+  background: $color;
+  border-radius: 4px;
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+input:checked ~ .counter {
+  .thousand,
+  .hundred,
+  .ten,
+  .digit {
+    animation-play-state: paused;
+  }
+}
+
+.number {
+  position: relative;
+  width: 25%;
+  height: calc(10 * 40px);
+  flex: auto;
+
+  &.thousand {
+    animation: count 10000s steps(1) infinite;
+  }
+
+  &.hundred {
+    animation: count 1000s steps(1) infinite;
+  }
+
+  &.ten {
+    animation: count 100s steps(1) infinite;
+  }
+
+  &.digit {
+    animation: count 10s steps(1) infinite;
+  }
+
+  span {
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: $textColor;
+    font-size: 26px;
+    font-weight: 200;
+    line-height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+@keyframes count {
+  @for $i from 0 to 9 {
+    $delta:calc($i * -1 * 40px);
+
+    $(i)0% {
+      transform: translateY($delta);
+    }
+  }
+}

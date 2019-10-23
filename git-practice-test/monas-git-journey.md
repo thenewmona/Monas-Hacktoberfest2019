@@ -62,3 +62,11 @@ So need to figure out how to fix this error message, so I can see if I fixed my 
 
 I am just having one issue after another.  
 All issues are in the gitlearn.md, but I am thinking that I am going to make an issues.md, because the gitlearn.md was suppose to be challenges and things that I or other's want to learn.  
+
+**10/23/2019**  
+
+Me and GIT are getting ready to throw down.
+I am just having issues after issue, and it is driving me bonkers. 
+This really can not be that hard. 
+Git is suppose to make your life easier, not harder. 
+I also need to figure out how to highlight so I know when I have completed things 

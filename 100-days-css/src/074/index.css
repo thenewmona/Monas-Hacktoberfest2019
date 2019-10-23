@@ -1,0 +1,75 @@
+:root {
+  --frame: 400px;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: var(--frame);
+  height: var(--frame);
+  background: linear-gradient(to left, #f96, #ff5e62);
+  box-shadow: 1px 2px 10px 0 rgba(0, 0, 0, 0.3);
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", Arial, sans-serif;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  display: none;
+}
+
+.pagination {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 30px;
+  transition: all 0.5s ease-in-out;
+  color: white;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+label:hover {
+  background: color(#ff5e62 shade(5%));
+  transition: all 0.3s ease-in-out;
+}
+
+label::before {
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  right: -1px;
+  left: -1px;
+  display: block;
+  background: white;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+  content: '';
+  transform: scale(0);
+}
+
+@for $i from 1 to 4 {
+  #r-$i:checked + label {
+    background: none;
+    color: #ff5e62;
+  }
+
+  #r-$i:checked + label::before {
+    transform: scale(1);
+  }
+}
